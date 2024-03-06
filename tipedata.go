@@ -28,5 +28,11 @@ func main () {
 	)
 	fmt.Println("Nama Saya " + firstName + " " + lastName)
 	fmt.Println("Alamat Tinggal Saya Jalan :" + address +"Nomor " + strconv.Itoa(addressNumber) )
+	/*Var merupakan variabel yang bisa dirubah dan const merupakan data yang tidak dapat dirubah*/
 
+	//mencoba const
+	const jenisKelamin = "Laki - Laki"
+	const tanggalLahir string = "09-08-1973"
+	fmt.Println("Jenis Kelamin " + jenisKelamin + "\nTanggal Lahir Saya : " + tanggalLahir)
+	//Const dapat dibuat multiple seperti di var
 }
